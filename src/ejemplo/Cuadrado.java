@@ -1,5 +1,9 @@
 package ejemplo;
 
+/**
+ * @author manuel.martin3
+ * @version 1.01
+ */
 public class Cuadrado {
 
 	private String nombre;
@@ -45,6 +49,12 @@ public class Cuadrado {
 	}
 
 	// metodo toString
+
+
+	/**
+	 * este metodo...
+	 * @return printea una cadena
+	 */
 	@Override
 	public String toString() {
 		return "Cuadrado [nombre=" + nombre + ", color=" + color + ", id=" + id + ", lado=" + lado + "]";
